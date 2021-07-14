@@ -1,0 +1,200 @@
+/* Utilities  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#FFFFFF;
+    
+}
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+/* Header style */
+.container-header{
+        display: flex;
+       flex-direction: row;
+       align-items: center;
+       background-color: #2D25A0;
+    }
+.head-title{
+        width: 90%;
+        padding-left: 6%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    color:#FFFFFF ;
+    font-size: 45px;
+        
+    }
+.head-title img{
+    width: 80%;
+}
+.link-button{
+    
+    text-decoration:white;
+    background-color: #E02C6D ;
+    color :white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius:25px;
+    margin-top: 50px;
+    
+}
+.link-button:hover{
+    color: blue;
+    background-color: cornsilk;
+  
+
+    
+}
+.head-title a i{
+    padding-left: 8px;
+}
+/* Players Blog Style  */
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 27px;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+   
+}
+.players-blog-box{
+    width: 330px;
+    height: 474px;  
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow:10px 5px 50px grey ;
+    
+    
+    
+}
+
+
+.players-blog-box .thumbnail img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+.blog-title{
+    width: 300px;
+    margin: 0px;
+    border: 0 px;
+    font-size : 16px; 
+}
+.blog-info{
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-bottom:33px;
+    margin: 0;
+    width: 300px;
+    height: 154px;
+}
+.thumbnail{
+    height: 270px;
+    margin-bottom: 0px;
+}
+/* Match-highlight */
+.match-highlight{
+    font-size: 2em;
+    color: #6C6C6C;
+    text-align: center;
+    padding-top: 80px;
+}
+.highlight iframe{
+    width: 1050px;
+    height: 474px;
+}
+/*---------- footer Style-------------------- */
+footer{
+     margin-bottom: 166px;
+     padding-left: 475px;
+    padding-right: 481.13px;
+    padding-top: 158px;
+}
+.logo img{
+width: 483.87px;
+height: 110px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, .2fr);
+   padding-left: 250px;
+   padding-right: 150px;
+}
+.icons i{
+    color: grey;
+}
+.copyright{
+    padding-left: 185.94px;
+   padding-right: 123.94px;
+    
+}
+/* Mobile Device */
+@media only screen and (max-width:688px){
+   
+     .all-players{
+         width: 100%;
+         padding-left:2%;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    
+    .copyright{
+        width: 100%;
+        padding-left: 20%;
+        
+        padding-bottom: 187px;
+    }
+    .icons{
+        width: 30%;
+        padding-left: 45%;
+    }
+    
+    
+    .logo img{
+        width: 300px;
+        height: 110px;
+        }
+    .match-highlight{
+        
+            font-size: .9em;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .highlight iframe{
+            width: 350px;
+            height: 200px;
+        }
+        .container-header{
+            width: 100%;
+            display: flex;
+           flex-direction:column;
+           align-items: center;
+           background-color: #2D25A0;
+        }
+        .head-title{
+            width: 100%;
+            padding-left: 8%;
+            padding-top: 30px;
+            padding-bottom: 40px;
+        color:#FFFFFF ;
+        font-size: 36px;
+            
+        }
+        .link-button{
+    
+            text-decoration:white;
+            background-color: #E02C6D ;
+            color :white;
+            font-weight: 700;
+            padding: 15px 40px;
+            border-radius:25px;
+            margin-top: 50px;
+            font-size: 20px;
+            
+        }
+}
+}
